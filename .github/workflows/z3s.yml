@@ -1,4 +1,4 @@
-name: Build Android Kernel (All Devices)
+name: Z3S UI7
 
 on:
   push:
