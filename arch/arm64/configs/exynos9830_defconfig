@@ -46,6 +46,8 @@ CONFIG_IPC_NS=y
 CONFIG_SYSVIPC_COMPAT=y
 CONFIG_BRIDGE_NETFILTER=y
 CONFIG_NETFILTER_XT_MATCH_IPVS=y
+CONFIG_CMDLINE="androidboot.boot_devices=13100000.ufs cgroup_disable=pressure console=tty0"
+CONFIG_CMDLINE_EXTEND=y
 
 #
 # IRQ subsystem
