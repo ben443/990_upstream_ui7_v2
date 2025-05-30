@@ -4,11 +4,11 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'arch/arm64/configs/exynos9830_defconfig'
+      - 'arch/arm64/configs/exynos9830_defconfig arch/arm64/configs/z3s.config'
   pull_request:
     branches: [ main ]
     paths:
-      - 'arch/arm64/configs/exynos9830_defconfig'
+      - 'arch/arm64/configs/exynos9830_defconfig arch/arm64/configs/z3s.config' 
   workflow_dispatch:
     inputs:
       force_build:
